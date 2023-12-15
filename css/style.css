@@ -43,16 +43,35 @@ p {
   font-size: 20px;
 }
 
-.btn {
+.btn-dark {
   padding: 20px;
   color: #fff;
   background-color: #333;
   font-size: 18px;
 }
 
+.btn-light {
+  padding: 20px;
+  color: #333;
+  background-color: #fff;
+  font-size: 18px;
+}
+
 .btn-dark:hover {
   color: #333;
   background-color: turquoise;
+}
+
+.btn-light:hover {
+  color: #333;
+  background-color: turquoise;
+}
+
+
+/* Dark backgrounds */
+.bg-dark {
+  background-color: #333;
+  color: #fff;
 }
 
 /* NAVBAR STYLING */
@@ -120,4 +139,45 @@ span {
 #showcase p {
   margin: 10px 0 50px 0;
   color: #fff;
+}
+
+
+/* HOME SECTION SECTION STYLING */
+#home-info {
+  height: 600px;
+
+}
+
+.home-img {
+  background: url('../img/hotelentrance1.jpeg') no-repeat center center/cover;
+  height: 400px;
+  width: 50%;
+  float: left;
+}
+
+.home-content {
+  float: right;
+  width: 50%;
+  height: 400px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.home-content h2,
+p {
+  padding: 10px;
+  text-align: center;
+  line-height: 1.8em;
+  margin: auto;
+}
+
+.home-content p {
+  padding-bottom: 50px;
+}
+
+.home-content a {
+  padding-top: 20px;
+  /* display: inline-block; */
+  overflow: hidden;
+
 }
