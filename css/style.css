@@ -74,6 +74,18 @@ p {
   color: #fff;
 }
 
+/* Light backgrounds */
+.bg-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Primary color backgrounds */
+.bg-primary {
+  background-color: turquoise;
+  color: #333;
+}
+
 /* NAVBAR STYLING */
 #navbar {
   background: #333;
@@ -165,7 +177,7 @@ span {
 
 .home-content h2,
 p {
-  padding: 10px;
+  padding: 10px 20px;
   text-align: center;
   line-height: 1.8em;
   margin: auto;
@@ -173,6 +185,7 @@ p {
 
 .home-content p {
   padding-bottom: 50px;
+  font-size: 18px;
 }
 
 .home-content a {
@@ -180,4 +193,28 @@ p {
   /* display: inline-block; */
   overflow: hidden;
 
+}
+
+/* FEATURES SECTION */
+.box{
+  float: left;
+  width: 33.3%;
+  padding: 50px 20px;
+  text-align: center;
+  line-height: 1.8em;
+  margin: auto;
+}
+
+.box p{
+  font-size: 18px;
+}
+
+.clr {
+  clear: both;
+}
+
+/* FOOTER */
+#main-footer{
+  padding: 20px;
+  font-size: 17px;
 }
